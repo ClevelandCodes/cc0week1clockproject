@@ -1,6 +1,6 @@
 /*this is my js file for clock*/
 
-$(document).ready(function(){ //Start Ready
+$(document).ready(function(){ //Start Ready Now
 
     setInterval(function(){ //The setInterval() Begins the interval.
     var seconds = new Date().getSeconds(); //11:51:15seconds getting current date from my computer and grabbing seconds as-is and setting those seconds to the variable seconds.
